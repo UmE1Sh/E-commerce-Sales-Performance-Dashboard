@@ -1,98 +1,97 @@
+# 📊 Retail Customer Shopping Behavior Trends Analysis
 
-E-commerce-Sales-Performance-Dashboard
-📁 Project Overview This project is an interactive Excel dashboard designed to provide a comprehensive view of an e-commerce store's sales performance for the year 2022. It enables stakeholders—such as Sales Managers, Analysts, and Business Owners—to monitor key performance indicators (KPIs), assess customer demographics, evaluate sales channels, and identify top-performing markets.
+## 📌 Overview
 
-Users can dynamically filter the entire report using slicers by Month, Sales Channel, and Product Category, enabling tailored insights for decision-making.
+This project demonstrates an end-to-end data analytics workflow similar to what data analysts perform in real organizations. It involves data loading, exploratory analysis, data cleaning, SQL-based analysis, and dashboard creation to derive actionable business insights from retail customer data.
 
-❓ Key Questions Answered 📈 What is the overall sales and order trend throughout the year?
+## 📂 Dataset
 
-🧍‍♂️🧍‍♀️ Who are our primary customers by gender and age group?
+The dataset contains retail customer transaction and behavior data, including:
 
-💻 Which sales channels contribute the most to revenue?
+- Customer demographics
 
-📦 How efficient is the order fulfillment process?
+- Purchase details
 
-🌍 Which geographical regions are our top markets?
+- Product categories
 
-Chart	Description
-Orders vs Sales (Combo Chart)	Monthly sum of sales revenue (bars) vs. number of orders (line)
-Sales: Men vs Women (Pie Chart)	Sales distribution by customer gender
-Order Status (Pie Chart)	Order fulfillment breakdown: Delivered, Returned, Cancelled, Refunded
-Sales Top 5 States (Bar Chart)	Top 5 states by total sales revenue
-Order: Age vs Gender (Clustered Column Chart)	Order count by customer age group and gender
-Order Channels (Pie Chart)	Distribution of orders across sales platforms
-Actionable Insights & Recommendations ✅ Insight 1: Strong Q4 Performance Driven by Order Volume Observation: October & November saw a surge in both sales and orders.
+- Discounts and subscriptions
 
-Recommendation: Investigate causes (festivals, campaigns, product launches) and replicate in other quarters.
+- Payment and shipping information
 
-✅ Insight 2: Men Are the Dominant Customer Segment Observation: Men contribute 59% of sales; adult males are the largest buyer group.
+The data is used to analyze spending patterns, customer segments, and product performance.
 
-Recommendation: Target marketing and inventory for adult males; also explore strategies to grow female customer engagement.
+## 🛠 Tools & Technologies
 
-✅ Insight 3: Myntra Is the Top Sales Channel Observation: Myntra leads with 35% order share, followed by Amazon (24%) and Flipkart (19%).
+- Python (Pandas, NumPy, Matplotlib/Seaborn) – Data cleaning & EDA
 
-Recommendation: Strengthen the Myntra partnership and apply successful strategies to lower-performing platforms like Ajio (10%).
+- MySQL Server – Analytical SQL queries
 
-✅ Insight 4: High Delivery Success but Noticeable Return Rate Observation: 83% of orders are delivered successfully; 11% are returned or refunded.
+- Power BI – Interactive dashboard & visualization
 
-Recommendation: Analyze return reasons (e.g., sizing, description mismatch, damages) and optimize logistics and product quality.
+- Gamma – Presentation (PPT) creation
 
-✅ Insight 5: Southern States Drive Major Revenue Observation: Top markets include Andhra Pradesh, Tamil Nadu, Karnataka, Telangana, and Maharashtra.
+- Jupyter Notebook – Analysis workflow
 
-Recommendation: Focus marketing and logistics in these regions; use regional targeting in advertising and inventory allocation.
+- GitHub – Version control & project sharing
 
-🛠️ Tools Used Microsoft Excel (Pivot Tables, Charts, Slicers, Conditional Formatting)
+## 🔄 Project Workflow
 
-Data Visualization (Combo Charts, Pie Charts, Bar Charts, Column Charts)
+- Loaded the dataset into Python using Pandas
 
-Interactive Filters (Slicers for dynamic user control)
+- Performed Exploratory Data Analysis (EDA) to understand trends and distributions
 
-E-commerce-Sales-Performance-Dashboard
-📁 Project Overview This project is an interactive Excel dashboard designed to provide a comprehensive view of an e-commerce store's sales performance for the year 2022. It enables stakeholders—such as Sales Managers, Analysts, and Business Owners—to monitor key performance indicators (KPIs), assess customer demographics, evaluate sales channels, and identify top-performing markets.
+- Cleaned and transformed data (missing values, column formatting, feature engineering)
 
-Users can dynamically filter the entire report using slicers by Month, Sales Channel, and Product Category, enabling tailored insights for decision-making.
+- Exported cleaned data to MySQL Server
 
-❓ Key Questions Answered 📈 What is the overall sales and order trend throughout the year?
+- Wrote SQL queries to answer business-driven questions
 
-🧍‍♂️🧍‍♀️ Who are our primary customers by gender and age group?
+- Built an interactive Power BI dashboard for insights visualization
 
-💻 Which sales channels contribute the most to revenue?
+- Created a summary report and presentation using Gamma
 
-📦 How efficient is the order fulfillment process?
+## 📈 Dashboard
 
-🌍 Which geographical regions are our top markets?
+- The Power BI dashboard highlights:
 
-Chart	Description
-Orders vs Sales (Combo Chart)	Monthly sum of sales revenue (bars) vs. number of orders (line)
-Sales: Men vs Women (Pie Chart)	Sales distribution by customer gender
-Order Status (Pie Chart)	Order fulfillment breakdown: Delivered, Returned, Cancelled, Refunded
-Sales Top 5 States (Bar Chart)	Top 5 states by total sales revenue
-Order: Age vs Gender (Clustered Column Chart)	Order count by customer age group and gender
-Order Channels (Pie Chart)	Distribution of orders across sales platforms
-Actionable Insights & Recommendations ✅ Insight 1: Strong Q4 Performance Driven by Order Volume Observation: October & November saw a surge in both sales and orders.
+- Revenue trends and customer spending behavior
 
-Recommendation: Investigate causes (festivals, campaigns, product launches) and replicate in other quarters.
+- Product and category performance
 
-✅ Insight 2: Men Are the Dominant Customer Segment Observation: Men contribute 59% of sales; adult males are the largest buyer group.
+- Discount impact analysis
 
-Recommendation: Target marketing and inventory for adult males; also explore strategies to grow female customer engagement.
+- Customer segmentation (New, Returning, Loyal)
 
-✅ Insight 3: Myntra Is the Top Sales Channel Observation: Myntra leads with 35% order share, followed by Amazon (24%) and Flipkart (19%).
+- Subscription and purchase frequency insights
 
-Recommendation: Strengthen the Myntra partnership and apply successful strategies to lower-performing platforms like Ajio (10%).
+The dashboard is designed for clarity, usability, and business decision-making.
 
-✅ Insight 4: High Delivery Success but Noticeable Return Rate Observation: 83% of orders are delivered successfully; 11% are returned or refunded.
+## 📊 Key Results & Insights
 
-Recommendation: Analyze return reasons (e.g., sizing, description mismatch, damages) and optimize logistics and product quality.
+- Identified high-revenue customer segments
 
-✅ Insight 5: Southern States Drive Major Revenue Observation: Top markets include Andhra Pradesh, Tamil Nadu, Karnataka, Telangana, and Maharashtra.
+- Analyzed the effect of discounts on purchase behavior
 
-Recommendation: Focus marketing and logistics in these regions; use regional targeting in advertising and inventory allocation.
+- Found top-performing products within each category
 
-🛠️ Tools Used Microsoft Excel (Pivot Tables, Charts, Slicers, Conditional Formatting)
+- Compared spending patterns of subscribed vs non-subscribed customers
 
-Data Visualization (Combo Charts, Pie Charts, Bar Charts, Column Charts)
+- Provided insights useful for marketing and retention strategies
 
-Interactive Filters (Slicers for dynamic user control)
+## ▶️ How to Run the Project
 
+- Clone this repository
 
+- Open the Jupyter Notebook and run cells sequentially from the data-loading step
+
+- Ensure MySQL Server is running and update connection credentials if needed
+
+- Execute SQL scripts on the MySQL database
+
+- Open the Power BI file to explore the dashboard
+
+- Review the report and presentation for summarized insights
+
+## 📄 License
+
+- This project is licensed under the MIT License and is intended for learning, portfolio, and demonstration purposes.
