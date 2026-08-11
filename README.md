@@ -1,4 +1,5 @@
 E-commerce-Sales-Performance-Dashboard
+
 📁 Project Overview This project is an interactive Excel dashboard designed to provide a comprehensive view of an e-commerce store's sales performance for the year 2022. It enables stakeholders—such as Sales Managers, Analysts, and Business Owners—to monitor key performance indicators (KPIs), assess customer demographics, evaluate sales channels, and identify top-performing markets.
 
 Users can dynamically filter the entire report using slicers by Month, Sales Channel, and Product Category, enabling tailored insights for decision-making.
